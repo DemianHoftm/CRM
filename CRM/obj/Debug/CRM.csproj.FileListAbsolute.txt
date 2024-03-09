@@ -1,0 +1,12 @@
+C:\Users\angel\source\repos\CRM\CRM\bin\Debug\CRM.exe.config
+C:\Users\angel\source\repos\CRM\CRM\bin\Debug\CRM.exe
+C:\Users\angel\source\repos\CRM\CRM\bin\Debug\CRM.pdb
+C:\Users\angel\source\repos\CRM\CRM\obj\Debug\CRM.csproj.AssemblyReference.cache
+C:\Users\angel\source\repos\CRM\CRM\obj\Debug\CRM.Form1.resources
+C:\Users\angel\source\repos\CRM\CRM\obj\Debug\CRM.Form2.resources
+C:\Users\angel\source\repos\CRM\CRM\obj\Debug\CRM.Properties.Resources.resources
+C:\Users\angel\source\repos\CRM\CRM\obj\Debug\CRM.csproj.GenerateResource.cache
+C:\Users\angel\source\repos\CRM\CRM\obj\Debug\CRM.csproj.CoreCompileInputs.cache
+C:\Users\angel\source\repos\CRM\CRM\obj\Debug\CRM.exe
+C:\Users\angel\source\repos\CRM\CRM\obj\Debug\CRM.pdb
+C:\Users\angel\source\repos\CRM\CRM\obj\Debug\CRM.Form3.resources
