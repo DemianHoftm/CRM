@@ -56,10 +56,9 @@
             this.Encuesta_Genero.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.Encuesta_Genero.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(166)))), ((int)(((byte)(213))))),
-        System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(149)))), ((int)(((byte)(213))))),
         System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(62)))), ((int)(((byte)(112))))),
-        System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(90)))), ((int)(((byte)(129))))),
-        System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(103)))), ((int)(((byte)(172)))))};
+        System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(101)))), ((int)(((byte)(194))))),
+        System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(58)))), ((int)(((byte)(85)))))};
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
             series1.Legend = "Legend1";

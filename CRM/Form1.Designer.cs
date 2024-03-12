@@ -31,23 +31,27 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title3 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint5 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "1,0,0,0");
             System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint6 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "42.6,0,0,0");
             System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint7 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "25.7,0,0,0");
             System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint8 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, "30.7,0,0,0");
-            System.Windows.Forms.DataVisualization.Charting.Title title3 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Title title4 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.centro = new System.Windows.Forms.Panel();
+            this.encuesta_tipo = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.Maldita_Encuesta = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.control_sup = new System.Windows.Forms.TableLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
@@ -60,22 +64,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.Menu = new System.Windows.Forms.TableLayoutPanel();
-            this.Maldita_Encuesta = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.encuesta_tipo = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.centro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.encuesta_tipo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Maldita_Encuesta)).BeginInit();
             this.control_sup.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.Menu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Maldita_Encuesta)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.encuesta_tipo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -136,6 +136,34 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(58, 27);
             this.tableLayoutPanel4.TabIndex = 1;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::CRM.Properties.Resources.x;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Location = new System.Drawing.Point(25, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 0, 4, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 23);
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::CRM.Properties.Resources.menos;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox3.Location = new System.Drawing.Point(6, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(15, 23);
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
+            // 
             // centro
             // 
             this.centro.BackColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -149,12 +177,122 @@
             this.centro.Size = new System.Drawing.Size(861, 573);
             this.centro.TabIndex = 1;
             // 
+            // encuesta_tipo
+            // 
+            this.encuesta_tipo.BackColor = System.Drawing.Color.WhiteSmoke;
+            chartArea3.Name = "ChartArea1";
+            this.encuesta_tipo.ChartAreas.Add(chartArea3);
+            this.encuesta_tipo.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend3.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            legend3.IsTextAutoFit = false;
+            legend3.Name = "Legend1";
+            legend3.Title = "Edad:";
+            this.encuesta_tipo.Legends.Add(legend3);
+            this.encuesta_tipo.Location = new System.Drawing.Point(0, 100);
+            this.encuesta_tipo.Name = "encuesta_tipo";
+            this.encuesta_tipo.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
+            this.encuesta_tipo.PaletteCustomColors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(149)))), ((int)(((byte)(213))))),
+        System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(62)))), ((int)(((byte)(112))))),
+        System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(52)))), ((int)(((byte)(75))))),
+        System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(58)))), ((int)(((byte)(85))))),
+        System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(101)))), ((int)(((byte)(194)))))};
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series6.Legend = "Legend1";
+            series6.LegendText = "<=24";
+            series6.Name = "Menor_24";
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series7.Legend = "Legend1";
+            series7.LegendText = "25 hasta 54";
+            series7.Name = "edad_2";
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series8.Legend = "Legend1";
+            series8.LegendText = "55 hasta 64";
+            series8.Name = "edad_3";
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series9.Legend = "Legend1";
+            series9.LegendText = ">=65";
+            series9.Name = "edad4";
+            this.encuesta_tipo.Series.Add(series6);
+            this.encuesta_tipo.Series.Add(series7);
+            this.encuesta_tipo.Series.Add(series8);
+            this.encuesta_tipo.Series.Add(series9);
+            this.encuesta_tipo.Size = new System.Drawing.Size(861, 473);
+            this.encuesta_tipo.TabIndex = 12;
+            this.encuesta_tipo.Text = "encuesta_edad";
+            title3.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            title3.ForeColor = System.Drawing.Color.RoyalBlue;
+            title3.Name = "Title1";
+            title3.Text = "Interes de vehiculo según edad";
+            this.encuesta_tipo.Titles.Add(title3);
+            this.encuesta_tipo.Visible = false;
+            // 
+            // Maldita_Encuesta
+            // 
+            this.Maldita_Encuesta.BackColor = System.Drawing.Color.WhiteSmoke;
+            chartArea4.Name = "ChartArea1";
+            this.Maldita_Encuesta.ChartAreas.Add(chartArea4);
+            this.Maldita_Encuesta.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend4.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            legend4.IsTextAutoFit = false;
+            legend4.Name = "Legend1";
+            legend4.Title = "Edad:";
+            this.Maldita_Encuesta.Legends.Add(legend4);
+            this.Maldita_Encuesta.Location = new System.Drawing.Point(0, 100);
+            this.Maldita_Encuesta.Name = "Maldita_Encuesta";
+            this.Maldita_Encuesta.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
+            this.Maldita_Encuesta.PaletteCustomColors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(166)))), ((int)(((byte)(213))))),
+        System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(62)))), ((int)(((byte)(112))))),
+        System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(101)))), ((int)(((byte)(194))))),
+        System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(58)))), ((int)(((byte)(85)))))};
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series10.Legend = "Legend1";
+            series10.LegendText = "gfd";
+            series10.Name = "Series1";
+            dataPoint5.AxisLabel = "1%";
+            dataPoint5.CustomProperties = "LabelsRadialLineSize=0, PieLabelStyle=Outside, PieLineColor=White";
+            dataPoint5.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataPoint5.LegendText = "<=24";
+            dataPoint6.AxisLabel = "42.6%";
+            dataPoint6.CustomProperties = "LabelsRadialLineSize=0, PieLabelStyle=Outside";
+            dataPoint6.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataPoint6.LegendText = "25 hasta 54";
+            dataPoint7.AxisLabel = "25.7%";
+            dataPoint7.CustomProperties = "LabelsRadialLineSize=0, PieLabelStyle=Outside";
+            dataPoint7.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataPoint7.LegendText = "55 hasta 64";
+            dataPoint8.AxisLabel = "30.7%";
+            dataPoint8.CustomProperties = "LabelsRadialLineSize=0, PieLabelStyle=Outside";
+            dataPoint8.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataPoint8.LegendText = ">=65";
+            series10.Points.Add(dataPoint5);
+            series10.Points.Add(dataPoint6);
+            series10.Points.Add(dataPoint7);
+            series10.Points.Add(dataPoint8);
+            series10.XValueMember = "18";
+            series10.YValuesPerPoint = 4;
+            this.Maldita_Encuesta.Series.Add(series10);
+            this.Maldita_Encuesta.Size = new System.Drawing.Size(861, 473);
+            this.Maldita_Encuesta.TabIndex = 10;
+            this.Maldita_Encuesta.Text = "encuesta_edad";
+            title4.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            title4.ForeColor = System.Drawing.Color.RoyalBlue;
+            title4.Name = "Title1";
+            title4.Text = "Composición de personas interesadas en adquirir un carro";
+            this.Maldita_Encuesta.Titles.Add(title4);
+            // 
             // control_sup
             // 
             this.control_sup.ColumnCount = 3;
             this.control_sup.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.50251F));
             this.control_sup.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.49749F));
-            this.control_sup.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 145F));
+            this.control_sup.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 146F));
             this.control_sup.Controls.Add(this.panel4, 0, 0);
             this.control_sup.Controls.Add(this.Consulta, 2, 0);
             this.control_sup.Controls.Add(this.panel3, 1, 0);
@@ -215,9 +353,9 @@
             this.Consulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Consulta.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Consulta.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.Consulta.Location = new System.Drawing.Point(713, 49);
+            this.Consulta.Location = new System.Drawing.Point(712, 49);
             this.Consulta.Name = "Consulta";
-            this.Consulta.Size = new System.Drawing.Size(140, 43);
+            this.Consulta.Size = new System.Drawing.Size(141, 43);
             this.Consulta.TabIndex = 3;
             this.Consulta.Text = "Consultar";
             this.Consulta.UseVisualStyleBackColor = false;
@@ -230,7 +368,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(364, 8);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(343, 84);
+            this.panel3.Size = new System.Drawing.Size(342, 84);
             this.panel3.TabIndex = 4;
             // 
             // label6
@@ -336,141 +474,6 @@
             this.Menu.Size = new System.Drawing.Size(139, 573);
             this.Menu.TabIndex = 5;
             // 
-            // Maldita_Encuesta
-            // 
-            this.Maldita_Encuesta.BackColor = System.Drawing.Color.WhiteSmoke;
-            chartArea3.Name = "ChartArea1";
-            this.Maldita_Encuesta.ChartAreas.Add(chartArea3);
-            this.Maldita_Encuesta.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Bold);
-            legend3.IsTextAutoFit = false;
-            legend3.Name = "Legend1";
-            legend3.Title = "Edad:";
-            this.Maldita_Encuesta.Legends.Add(legend3);
-            this.Maldita_Encuesta.Location = new System.Drawing.Point(0, 100);
-            this.Maldita_Encuesta.Name = "Maldita_Encuesta";
-            this.Maldita_Encuesta.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
-            this.Maldita_Encuesta.PaletteCustomColors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(166)))), ((int)(((byte)(213))))),
-        System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(149)))), ((int)(((byte)(213))))),
-        System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(62)))), ((int)(((byte)(112))))),
-        System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(90)))), ((int)(((byte)(129))))),
-        System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(103)))), ((int)(((byte)(172)))))};
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series6.Legend = "Legend1";
-            series6.LegendText = "gfd";
-            series6.Name = "Series1";
-            dataPoint5.AxisLabel = "1%";
-            dataPoint5.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataPoint5.LegendText = "<=24";
-            dataPoint6.AxisLabel = "42.6%";
-            dataPoint6.Font = new System.Drawing.Font("Yu Gothic", 9.75F);
-            dataPoint6.LegendText = "25 hasta 54";
-            dataPoint7.AxisLabel = "25.7%";
-            dataPoint7.Font = new System.Drawing.Font("Yu Gothic", 9.75F);
-            dataPoint7.LegendText = "55 hasta 64";
-            dataPoint8.AxisLabel = "30.7%";
-            dataPoint8.Font = new System.Drawing.Font("Yu Gothic", 9.75F);
-            dataPoint8.LegendText = ">=65";
-            series6.Points.Add(dataPoint5);
-            series6.Points.Add(dataPoint6);
-            series6.Points.Add(dataPoint7);
-            series6.Points.Add(dataPoint8);
-            series6.XValueMember = "18";
-            series6.YValuesPerPoint = 4;
-            this.Maldita_Encuesta.Series.Add(series6);
-            this.Maldita_Encuesta.Size = new System.Drawing.Size(861, 473);
-            this.Maldita_Encuesta.TabIndex = 10;
-            this.Maldita_Encuesta.Text = "encuesta_edad";
-            title3.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            title3.ForeColor = System.Drawing.Color.RoyalBlue;
-            title3.Name = "Title1";
-            title3.Text = "Composición de personas interesadas en adquirir un carro";
-            this.Maldita_Encuesta.Titles.Add(title3);
-            // 
-            // encuesta_tipo
-            // 
-            this.encuesta_tipo.BackColor = System.Drawing.Color.WhiteSmoke;
-            chartArea4.Name = "ChartArea1";
-            this.encuesta_tipo.ChartAreas.Add(chartArea4);
-            this.encuesta_tipo.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Bold);
-            legend4.IsTextAutoFit = false;
-            legend4.Name = "Legend1";
-            legend4.Title = "Edad:";
-            this.encuesta_tipo.Legends.Add(legend4);
-            this.encuesta_tipo.Location = new System.Drawing.Point(0, 100);
-            this.encuesta_tipo.Name = "encuesta_tipo";
-            this.encuesta_tipo.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
-            this.encuesta_tipo.PaletteCustomColors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(166)))), ((int)(((byte)(213))))),
-        System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(149)))), ((int)(((byte)(213))))),
-        System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(62)))), ((int)(((byte)(112))))),
-        System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(90)))), ((int)(((byte)(129))))),
-        System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(103)))), ((int)(((byte)(172)))))};
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series7.Legend = "Legend1";
-            series7.LegendText = "<=24";
-            series7.Name = "Menor_24";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series8.Legend = "Legend1";
-            series8.LegendText = "25 hasta 54";
-            series8.Name = "edad_2";
-            series9.ChartArea = "ChartArea1";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series9.Legend = "Legend1";
-            series9.LegendText = "55 hasta 64";
-            series9.Name = "edad_3";
-            series10.ChartArea = "ChartArea1";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series10.Legend = "Legend1";
-            series10.LegendText = ">=65";
-            series10.Name = "edad4";
-            this.encuesta_tipo.Series.Add(series7);
-            this.encuesta_tipo.Series.Add(series8);
-            this.encuesta_tipo.Series.Add(series9);
-            this.encuesta_tipo.Series.Add(series10);
-            this.encuesta_tipo.Size = new System.Drawing.Size(861, 473);
-            this.encuesta_tipo.TabIndex = 12;
-            this.encuesta_tipo.Text = "encuesta_edad";
-            title4.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            title4.ForeColor = System.Drawing.Color.RoyalBlue;
-            title4.Name = "Title1";
-            title4.Text = "Interes de vehiculo según edad";
-            this.encuesta_tipo.Titles.Add(title4);
-            this.encuesta_tipo.Visible = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::CRM.Properties.Resources.x;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Location = new System.Drawing.Point(25, 2);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 0, 4, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 23);
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::CRM.Properties.Resources.menos;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox3.Location = new System.Drawing.Point(6, 2);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(15, 23);
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -487,7 +490,11 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.centro.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.encuesta_tipo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Maldita_Encuesta)).EndInit();
             this.control_sup.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
@@ -495,10 +502,6 @@
             this.panel3.PerformLayout();
             this.Menu.ResumeLayout(false);
             this.Menu.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Maldita_Encuesta)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.encuesta_tipo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\angel\\source\\repos\\CRM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DE77CF4A-E368-4F46-A397-2C8DBFB51826}|CRM\\CRM.csproj|c:\\users\\angel\\source\\repos\\crm\\crm\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE77CF4A-E368-4F46-A397-2C8DBFB51826}|CRM\\CRM.csproj|solutionrelative:crm\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE77CF4A-E368-4F46-A397-2C8DBFB51826}|CRM\\CRM.csproj|c:\\users\\angel\\source\\repos\\crm\\crm\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE77CF4A-E368-4F46-A397-2C8DBFB51826}|CRM\\CRM.csproj|solutionrelative:crm\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE77CF4A-E368-4F46-A397-2C8DBFB51826}|CRM\\CRM.csproj|c:\\users\\angel\\source\\repos\\crm\\crm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DE77CF4A-E368-4F46-A397-2C8DBFB51826}|CRM\\CRM.csproj|solutionrelative:crm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE77CF4A-E368-4F46-A397-2C8DBFB51826}|CRM\\CRM.csproj|c:\\users\\angel\\source\\repos\\crm\\crm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE77CF4A-E368-4F46-A397-2C8DBFB51826}|CRM\\CRM.csproj|c:\\users\\angel\\source\\repos\\crm\\crm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE77CF4A-E368-4F46-A397-2C8DBFB51826}|CRM\\CRM.csproj|solutionrelative:crm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE77CF4A-E368-4F46-A397-2C8DBFB51826}|CRM\\CRM.csproj|C:\\Users\\angel\\source\\repos\\CRM\\crm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE77CF4A-E368-4F46-A397-2C8DBFB51826}|CRM\\CRM.csproj|solutionrelative:crm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,6 +35,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\CRM\\CRM\\Form3.cs",
+              "RelativeDocumentMoniker": "CRM\\Form3.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\CRM\\CRM\\Form3.cs",
+              "RelativeToolTip": "CRM\\Form3.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T22:23:35.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\CRM\\CRM\\Form3.cs",
+              "RelativeDocumentMoniker": "CRM\\Form3.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\CRM\\CRM\\Form3.cs [Design]",
+              "RelativeToolTip": "CRM\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T22:11:41.091Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\CRM\\CRM\\Form2.cs",
+              "RelativeDocumentMoniker": "CRM\\Form2.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\CRM\\CRM\\Form2.cs [Design]",
+              "RelativeToolTip": "CRM\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T22:11:39.396Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\CRM\\CRM\\Form1.cs",
               "RelativeDocumentMoniker": "CRM\\Form1.cs",
@@ -34,13 +83,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\CRM\\CRM\\Form1.cs",
               "RelativeDocumentMoniker": "CRM\\Form1.cs",
               "ToolTip": "C:\\Users\\angel\\source\\repos\\CRM\\CRM\\Form1.cs",
               "RelativeToolTip": "CRM\\Form1.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAArwIIAAAA0AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAMwBcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-08T20:57:50.585Z",
               "EditorCaption": ""

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace CRM
 {
@@ -29,6 +30,8 @@ namespace CRM
 
             Encuesta_Genero.Series[4].Points.AddXY("Hombre", 7);
             Encuesta_Genero.Series[4].Points.AddXY("Mujer", 5);
+
+
         }
     }
 }
